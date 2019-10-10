@@ -2,7 +2,6 @@ version: '3'
 services:
   artifactory:
     image: zygon/artifactory-rpi
-    build: .
     container_name: artifactory
     ports:
      - 80:8081
