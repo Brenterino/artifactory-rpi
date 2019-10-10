@@ -2,6 +2,8 @@ FROM adoptopenjdk/openjdk12:armv7l-ubuntu-jdk-12.0.2_10-slim
 
 MAINTAINER Brenterino <me@brento.dev>
 
+COPY qemu-arm-static /usr/bin
+
 ENV AF_VERSION=6.13.1
 ENV AF_SHA256=a77415f1adbfec0d574f3a808f1c17c35536a90299a630b96e65b4d698d968c7
 ENV AF_HOME=/artifactory
