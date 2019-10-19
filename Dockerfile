@@ -25,6 +25,7 @@ RUN apt-get update -yqq \
 VOLUME ${AF_HOME}/data
 VOLUME ${AF_HOME}/logs
 VOLUME ${AF_HOME}/backup
+VOLUME ${AF_HOME}/etc/security
 
 EXPOSE 8081
 

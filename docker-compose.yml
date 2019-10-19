@@ -9,6 +9,7 @@ services:
      - /data/artifactory/data:/artifactory/data
      - /data/artifactory/logs:/artifactory/logs
      - /data/artifactory/backup:/artifactory/backup
+     - /data/artifactory/security:/artifactory/etc/security
     restart: always
     ulimits:
       nproc: 65535
